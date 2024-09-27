@@ -1,0 +1,212 @@
+/* কোনো এডিট করবেন না*/
+
+.full_area{
+  display: flex;
+} 
+.ltr{
+  width: 3.46in;
+  height: 785px;
+  position: relative;
+  border: 1px solid #ddd;
+}
+.header_area img{
+  width: 3.46in;
+}
+a{
+  color: #f00;
+  text-decoration: none;
+}
+
+.pscan{
+  width: 120px;
+  max-width: 100%;
+  transform: rotate(2deg);
+}
+
+.issue_date p{
+  margin-right: 20px;
+  writing-mode: vertical-lr;
+  padding: 0;
+  margin-left: 5px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.scan .scanner{
+  float: right;
+  width: 100px;
+  margin: -60px 10px 2px; 
+}
+.coName{
+  text-transform: uppercase;
+}
+.t{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: red;
+  height: 2px;
+  text-align: center;
+  font-weight: bold;
+  margin:2px;
+  padding: 0px;
+}
+
+li{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li a{
+  color: #f00;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+ul{
+  list-style: square;
+}
+li::marker{
+  color:red;
+}
+.txt{
+  width: 3in;
+  border: 1px solid #000;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: inline-block;
+  justify-content: center;
+}
+.txt ul{
+  padding-left: 28px;
+}
+h5 a{
+  text-decoration: none;
+  color: #f00;
+  display: inline;
+  font-family: 'AponaLohit', sans-serif;
+
+}
+h2{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h5{
+  display: inline-block;
+  margin: 2px;
+  text-align: center!important;
+  font-size: 17px;
+  font-family: 'AponaLohit', sans-serif;
+  margin-left: 13px;
+}
+.pvc_area{
+  position: absolute;
+  width: 3.46in;
+  height: 2.16in;
+  margin: 0;
+  bottom: 0;
+  top: auto;
+  border-top: 1px dashed #464646;
+}
+.header img{
+  max-width: 100%;
+}
+.header{
+  height: 37px;
+  width: 3.46in;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 0.6in 2.18in;
+  grid-template-rows: 3fr 8fr;
+  grid-column-gap: 20px;
+  justify-content: center
+}
+h2,.pvc_footer_area h3{
+margin: 2px;
+padding: 0;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.pvc_footer_area{
+  position: absolute;
+  top: auto;
+  bottom: 3px;
+  height: 50px;
+}
+pre{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+h3{
+  font-family: 'AdorshoLipi', sans-serif;
+  font-size: 19px;
+  text-align: center;
+  margin: 0 20px;
+  border-bottom: 2px solid red;
+}
+p[align="center"]{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 11px;
+  margin: 0;
+}
+.uid{
+  border:none;
+}
+img[src="img/helpline.jpg"]{
+  border-top: 1px solid red;
+}
+.cl{
+  display: flex;
+  justify-content: center;
+}
+.address_area{
+  display: flex;
+  margin-top: 10px;
+}
+.address_area :first-child{
+  margin-left: 10px;
+} 
+.address_area div p{
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.photo{
+  width: 80px;
+  margin: 10px;
+  height: 100px;
+}
+.pvc_bd_area{
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+}
+#qrcode{
+  max-width: 100%;
+  width: 78px;
+  height: 80px;
+  margin: 60px 10px 2px;
+}
+
+.new{
+  font-family: 'AdorshoLipi', sans-serif;
+  text-align: center;
+  border-top: 2px solid red;
+  margin: 0;
+  width: 100%;
+  font-weight: 600;
+}
+.pvc_footer_area{
+  width: 3.46in;
+}
+.s{
+  margin-left: 6px;
+}
+.villName{
+  text-transform: uppercase;
+}
+.eng_address{
+  padding-right: 10px;
+}
+body{
+  width:680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
